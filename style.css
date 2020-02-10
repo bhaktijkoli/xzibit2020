@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #f2f8f8;
+}
+
+/* Header section */
+.nav-link:link,
+.nav-link:visited {
+  color: white;
+  font-size: 13px;
+  transition: all 0.4s;
+}
+
+.nav-link:hover {
+  color: #3ddfc9;
+}
+.header-section {
+  height: 130vh;
+  background-color: #001520;
+  clip-path: polygon(100% 0, 100% 68%, 83% 84%, 24% 94%, 0 81%, 0 0);
+  position: relative;
+}
+
+.header-main {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.header-main-text {
+  color: white;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.header-main-text::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 30%;
+  left: 25%;
+  border-top: 1px solid white;
+}
+
+.header-sub-text {
+  color: #c6ced3;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.btn-header:link,
+.btn-header:visited {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #1285a5, #06d5ba);
+  padding: 10px 60px;
+  border-radius: 100px;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.btn-header:hover {
+  transform: translateY(-3px);
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1em;
+  margin-right: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+li span {
+  display: block;
+  font-size: 30px;
+}
+
+.timer {
+  position: absolute;
+  top: 13%;
+  left: 35%;
+}
+
+/* Theme */
+.theme-section {
+  height: 80vh;
+}
+.theme-card {
+  padding: 30px 5px 150px 5px;
+  margin: -150px 30px 0px 30px;
+  height: 350px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.151);
+}
+.theme-card > p {
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+.theme-card-header {
+  margin-top: 60px;
+  font-size: 23px;
+}
