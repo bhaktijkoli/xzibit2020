@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  background-color: #f2f8f8;
+  background-color: white;
 }
 
 /* Header section */
@@ -22,10 +23,14 @@ body {
 .nav-link:hover {
   color: #3ddfc9;
 }
+
 .header-section {
-  height: 130vh;
-  background-color: #001520;
-  clip-path: polygon(100% 0, 100% 68%, 83% 84%, 24% 94%, 0 81%, 0 0);
+  height: 100vh;
+  background-image: url('header.svg');
+  background-position: right;
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 79%, 79% 94%, 23% 100%, 0 78%, 0 0);
+  background-color: white;
   position: relative;
 }
 
@@ -37,7 +42,7 @@ body {
 
 .header-main-text {
   color: white;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 50px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -49,7 +54,7 @@ body {
   position: absolute;
   top: 50;
   width: 30%;
-  left: 25%;
+  left: 35%;
   border-top: 1px solid white;
 }
 
@@ -95,21 +100,29 @@ li span {
 .timer {
   position: absolute;
   top: 13%;
-  left: 35%;
+  left: 10%;
 }
 
 /* Theme */
 .theme-section {
-  height: 80vh;
+  height: 100vh;
+  background-image: url('theme.svg');
+  background-size: cover;
+  position: relative;
 }
 .theme-card {
   padding: 30px 5px 150px 5px;
-  margin: -150px 30px 0px 30px;
-  height: 350px;
+  margin: 100px 30px;
+  height: 400px;
   background-color: white;
   border: none;
   border-radius: 10px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.151);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.151);
+  transition: all 0.4s;
+}
+
+.theme-card:hover {
+  transform: translateY(-5px);
 }
 .theme-card > p {
   text-align: justify;
@@ -117,6 +130,133 @@ li span {
 }
 
 .theme-card-header {
-  margin-top: 60px;
+  margin-top: 20px;
   font-size: 23px;
+}
+
+.theme-img {
+  height: 100px;
+}
+
+.theme-header {
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.theme-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 40%;
+  left: 60%;
+  border-top: 1px solid black;
+}
+
+/* Sponsor */
+.sponsor-section {
+  background-image: url('sponsors.svg');
+  background-size: cover;
+  height: 100vh;
+}
+.sponsor-header {
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.sponsor-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 40%;
+  left: 60%;
+  border-top: 1px solid black;
+}
+.sponsor-img-container {
+  margin: 100px 30px;
+}
+.sponsor-img {
+  opacity: 0.9;
+  transition: all 0.4s;
+}
+.sponsor-img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* FAQ */
+.faq-header {
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.faq-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 40%;
+  left: 60%;
+  border-top: 1px solid #5760c6;
+}
+.accordion-container {
+  position: relative;
+  max-width: 500px;
+  height: auto;
+  margin: 100px auto;
+}
+.accordion-container > h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  font-family: 'Maven Pro', sans-serif;
+}
+.set {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #240ba1;
+  overflow: hidden;
+}
+.set > a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+.set > a i {
+  float: right;
+  margin-top: 2px;
+}
+/* .set > a.active{
+    background-color:#3399cc;
+    color: #fff;
+  } */
+.content {
+  background-color: #46016f;
+  border-bottom: 1px solid #46016f;
+  display: none;
+}
+.content p {
+  padding: 10px 15px;
+  margin: 0;
+  color: white;
+}
+
+/* Contact Us */
+.contact-us-footer {
+  height: 100vh;
+  background-image: url('contact.svg');
+  background-size: cover;
 }

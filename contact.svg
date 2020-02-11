@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1226" height="606" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.042" y1="0.285" x2="1.038" y2="0.811" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4b0194"/>
+      <stop offset="0.05" stop-color="#350190"/>
+      <stop offset="0.386" stop-color="#480177"/>
+      <stop offset="0.763" stop-color="#40015b"/>
+      <stop offset="0.923" stop-color="#500050"/>
+      <stop offset="1" stop-color="#26014a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.047" y1="0.389" x2="1" y2="0.419" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#250189"/>
+      <stop offset="0" stop-color="#2b0085"/>
+      <stop offset="0" stop-color="#2b0084"/>
+      <stop offset="0" stop-color="#29008b"/>
+      <stop offset="0.337" stop-color="#23019c"/>
+      <stop offset="1" stop-color="#2f76d8"/>
+      <stop offset="1" stop-color="#611212"/>
+    </linearGradient>
+    <clipPath id="clip-contact">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="contact" clip-path="url(#clip-contact)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="Union_2" data-name="Union 2" d="M2608.275-5292.458,690-5290.5l633.2-847.083,3.717-.5A113.882,113.882,0,0,1,1414.448-6179a113.524,113.524,0,0,1,57.958,15.808l-.842-.631,999.13,371.732,208.634,499.56-69.974.071.645,1.96Z" transform="translate(-690 6370.5)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="grey1" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="translate(1648.176 534.455) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
+    <path id="grey1-2" data-name="grey1" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="matrix(0.883, -0.469, 0.469, 0.883, -299.704, 250.043)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
+    <path id="grey1-3" data-name="grey1" d="M55.681,0,55.09.2,0,41.247l20.928,64.736H90.786L112.3,41.247,56.255.136Z" transform="translate(42.878 674.652) rotate(-9)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
+    <path id="darkblue" d="M82.566,0l-.876.3L0,63.768,31.033,163.851h103.59L166.531,63.768,83.419.209Z" transform="matrix(-0.105, 0.995, -0.995, -0.105, 89.931, 716.095)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
