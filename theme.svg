@@ -27,8 +27,8 @@
   </defs>
   <g id="theme" clip-path="url(#clip-theme)">
     <rect width="1920" height="1080" fill="#fff"/>
-    <g id="Group_1" data-name="Group 1" transform="translate(2736 -8464.636)">
-      <path  id="darkblue" d="M60.668,0l-.644.224L0,46.855l22.8,73.539H98.918l23.445-73.539L61.294.154Z" transform="matrix(0.94, 0.342, -0.342, 0.94, -2694.435, 8576.19)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(2741 -8546.636)">
+      <path id="darkblue" d="M60.668,0l-.644.224L0,46.855l22.8,73.539H98.918l23.445-73.539L61.294.154Z" transform="matrix(0.94, 0.342, -0.342, 0.94, -2694.435, 8576.19)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
       <path id="grey2" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="matrix(-0.105, 0.995, -0.995, -0.105, -881.8, 8562.754)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
       <path id="darkblue-2" data-name="darkblue" d="M60.668,0l-.644.224L0,46.855l22.8,73.539H98.918l23.445-73.539L61.294.154Z" transform="matrix(0.616, 0.788, -0.788, 0.616, -2538.762, 8645.729)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
       <path id="darkblue-3" data-name="darkblue" d="M60.668,0l-.644.224L0,46.855l22.8,73.539H98.918l23.445-73.539L61.294.154Z" transform="matrix(0.966, 0.259, -0.259, 0.966, -2705.048, 8720.048)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
@@ -36,6 +36,6 @@
       <path id="grey1" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="translate(-1573.824 9365.091) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
       <path id="grey" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="translate(-2915.824 9317.091) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
     </g>
-    <path id="Path_10" data-name="Path 10" d="M428.931,0l-4.549,1.5L0,313.643,161.217,805.9H699.366L865.125,313.643Z" transform="translate(803.597 -55.67) rotate(47)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-5)"/>
+    <path id="Path_10" data-name="Path 10" d="M179.965,0l-1.909.63L0,131.594,67.641,338.128H293.43l69.547-206.534Z" transform="translate(743.183 268.25) rotate(100)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-5)"/>
   </g>
 </svg>

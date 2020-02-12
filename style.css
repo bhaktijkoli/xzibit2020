@@ -27,7 +27,7 @@ body {
 .header-section {
   height: 100vh;
   background-image: url('header.svg');
-  background-position: right;
+  background-position: center;
   background-size: cover;
   clip-path: polygon(100% 0, 100% 79%, 79% 94%, 23% 100%, 0 78%, 0 0);
   background-color: white;
@@ -111,9 +111,9 @@ li span {
   position: relative;
 }
 .theme-card {
-  padding: 30px 5px 150px 5px;
-  margin: 100px 30px;
-  height: 400px;
+  padding: 10px;
+  margin: 100px 10px 10px 10px;
+  /* height: 400px; */
   background-color: white;
   border: none;
   border-radius: 10px;
@@ -131,7 +131,9 @@ li span {
 
 .theme-card-header {
   margin-top: 20px;
-  font-size: 23px;
+  font-size: 15px;
+  padding: 0px 20px;
+  word-wrap: break-word;
 }
 
 .theme-img {
@@ -154,7 +156,142 @@ li span {
   left: 60%;
   border-top: 1px solid black;
 }
+.prize-section {
+  height: 90vh;
+  background-image: url('prizes.svg');
+  background-size: cover;
+}
 
+.prize-header {
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.prize-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 40%;
+  left: 60%;
+  border-top: 1px solid black;
+}
+
+.medal {
+  margin-top: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #ffcc00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: shine 4s ease-in-out infinite;
+}
+
+.medal2 {
+  background-color: #d7d7d7;
+}
+
+.prize {
+  position: relative;
+}
+.firstprize {
+  margin-top: 320px;
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.firstprize-rs {
+  margin-top: 370px;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.secondprize {
+  margin-top: 320px;
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.secondprize-rs {
+  margin-top: 370px;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.icon--star:before {
+  font-family: fontAwesome;
+  content: '\f005';
+  font-size: 70px;
+  color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes shine {
+  from {
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(
+      top left,
+      rgba(250, 250, 250, 0) 0%,
+      rgba(250, 250, 250, 0) 45%,
+      rgba(250, 250, 250, 0.3) 48%,
+      rgba(250, 250, 250, 0.5) 50%,
+      rgba(250, 250, 250, 0.3) 52%,
+      rgba(250, 250, 250, 0) 57%,
+      rgba(250, 250, 250, 0) 100%
+    );
+    background-position: -400px -400px;
+    background-size: 600px 600px;
+  }
+  to {
+    background-repeat: no-repeat;
+    background-position: 250px 250px;
+  }
+}
+
+.rules-section {
+  height: 90vh;
+  background-image: url('rules.svg');
+  background-size: cover;
+}
+
+.rules-header {
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.rules-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 40%;
+  left: 60%;
+  border-top: 1px solid black;
+}
+.rule-wrapper {
+  margin-top: 180px;
+  margin-left: -150px;
+}
 /* Sponsor */
 .sponsor-section {
   background-image: url('sponsors.svg');
@@ -244,8 +381,8 @@ li span {
     color: #fff;
   } */
 .content {
-  background-color: #46016f;
-  border-bottom: 1px solid #46016f;
+  background-color: #5423cb;
+  border-bottom: 1px solid #5423cb;
   display: none;
 }
 .content p {
@@ -259,4 +396,106 @@ li span {
   height: 100vh;
   background-image: url('contact.svg');
   background-size: cover;
+}
+.contact-header {
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.contact-header::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 40%;
+  left: 60%;
+  border-top: 1px solid #5760c6;
+}
+.number-wrapper {
+  margin: 250px 0px 10px 130px;
+  color: white;
+}
+
+.iframe-holder {
+  margin-top: 200px;
+}
+
+.social-links {
+  margin-top: 50px;
+}
+/* Media queries */
+@media screen and (max-width: 340px) {
+  .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+  .header-section {
+    clip-path: none;
+    background-image: url('phone-header330.svg');
+    height: 100vh;
+  }
+  .header-main {
+    top: 55%;
+    left: 10%;
+  }
+  li:nth-child(2) {
+    margin-right: 20px;
+  }
+
+  li:nth-child(3) {
+    margin-right: 0px;
+  }
+  .timer {
+    top: 10%;
+    left: 10%;
+  }
+  .theme-section {
+    height: 230vh;
+  }
+  .theme-card:nth-child(1) {
+    margin: 100px 10px 5px 10px;
+  }
+  .theme-card:nth-child(2) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(3) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(4) {
+    margin: 10px 10px;
+  }
+  .prize-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
+  .medal2 {
+    margin-top: 500px;
+  }
+  .secondprize {
+    margin-top: 550px;
+  }
+  .secondprize-rs {
+    margin-top: 600px;
+  }
+  .rule-wrapper {
+    word-wrap: break-word;
+  }
+  .sponsor-img-container:nth-child(1) {
+    margin: 100px 30px 5px 30px;
+  }
+
+  .sponsor-img-container {
+    margin: 10px 30px;
+  }
+  .accordion-container:nth-child(1) {
+    max-width: 500px;
+    margin: 100px 40px 5px 10px;
+    padding-right: 0;
+  }
+
+  .column-2 {
+    margin-top: -80px;
+  }
 }

@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XZIBIT</title>
+    <title>XZIBIT-2020</title>
+    <link
+      rel="icon"
+      href="https://img.icons8.com/color/48/000000/x.png"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,131 +26,176 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header-section">
-      <nav class="navbar navbar-expand-lg bg-transparent container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#"
-          ><img
-            src="https://image.flaticon.com/icons/svg/2497/2497424.svg"
-            width="50px"
-        /></a>
+    <div class="wrapper">
+      <header class="header-section">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://image.flaticon.com/icons/svg/2497/2497424.svg"
+              width="50px"
+          /></a>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#theme">Theme</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sponsors">Sponsors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#theme">Theme</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prize">Prize</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rules">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsor">Sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="timer">
+          <ul>
+            <li class="timer-list"><span id="days"></span>Days</li>
+            <li class="timer-list"><span id="hours"></span>Hours</li>
+            <li class="timer-list"><span id="minutes"></span>Minutes</li>
+            <li class="timer-list"><span id="seconds"></span>Seconds</li>
           </ul>
         </div>
-      </nav>
+        <div class="header-main">
+          <h1 class="header-main-text">xzibit</h1>
+          <p class="header-sub-text">KC college of engineering</p>
+          <p class="header-sub-text">10-11 February</p>
+          <br />
+          <a href="#" class="btn-header">Register</a>
+        </div>
+      </header>
 
-      <div class="timer">
-        <ul>
-          <li><span id="days"></span>Days</li>
-          <li><span id="hours"></span>Hours</li>
-          <li><span id="minutes"></span>Minutes</li>
-          <li><span id="seconds"></span>Seconds</li>
-        </ul>
-      </div>
-      <div class="header-main">
-        <h1 class="header-main-text">xzibit</h1>
-        <p class="header-sub-text">KC college of engineering</p>
-        <p class="header-sub-text">10-11 February</p>
-        <br />
-        <a href="#" class="btn-header">Register</a>
-      </div>
-    </header>
+      <section class="theme-section" id="theme">
+        <h1 class="theme-header">THEME</h1>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-3 theme-card">
+            <h4 class="text-center theme-card-header">
+              EXTC/ ETRX/ BIOMEDICAL/ ELECTRICAL & ELECTRONICS
+            </h4>
+          </div>
+          <div class="col-sm-12 col-md-3 theme-card">
+            <h4 class="text-center theme-card-header">
+              CS/IT/ELECTRONICS & CS
+            </h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-3 theme-card">
+            <h4 class="text-center theme-card-header">
+              MECHANICAL / MECHATRONICS / AUTOMOBILES / PRODUCTION
+            </h4>
+          </div>
+          <div class="col-sm-12 col-md-3 theme-card">
+            <h4 class="text-center theme-card-header">
+              CIVIL / STRUCTURAL / ENVIRONMENT/ ARCHITECHTURE
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section class="prize-section" id="prize">
+        <h1 class="prize-header">PRIZES</h1>
+        <div class="row justify-content-center prize-section-row">
+          <div class="col-sm-10 col-md-3">
+            <div class="medal medal1 icon--star"></div>
+            <div class="prize">
+              <h1 class=" firstprize">1<sup>ST</sup> PRIZE</h1>
+              <h3 class=" firstprize-rs">&#x20b9; 5000/-</h3>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-3">
+            <div class="medal medal2 icon--star"></div>
+            <div class="prize">
+              <h1 class=" secondprize">2<sup>ND</sup> PRIZE</h1>
+              <h3 &#x20b9; class=" secondprize-rs">&#x20b9; 3000/-</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rules-section" id="rules">
+        <h1 class="rules-header">RULES</h1>
+        <div class="row justify-content-center">
+          <div class="col-sm-10 col-md-6">
+            <div class="rule-wrapper">
+              <h4>
+                <img src="https://img.icons8.com/color/20/000000/circled.png" />
+                Maximum 4 participants from each group is allowed.
+              </h4>
+              <h4>
+                <img src="https://img.icons8.com/color/20/000000/circled.png" />
+                Working model for demonstration is required.
+              </h4>
+              <h4>
+                <img src="https://img.icons8.com/color/20/000000/circled.png" />
+                Judges decision will be final.
+              </h4>
+              <h4>
+                <img src="https://img.icons8.com/color/20/000000/circled.png" />
+                Co-ordinators can also participate.
+              </h4>
+              <h4>
+                <img src="https://img.icons8.com/color/20/000000/circled.png" />
+                Every group should bring laptop for presentation.
+              </h4>
+              <h4>
+                <img src="https://img.icons8.com/color/20/000000/circled.png" />
+                College Identity card is necessary.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="sponsor-section">
+        <h1 class="sponsor-header" id="sponsors">SPONSORS</h1>
+        <div class="row justify-content-center sponsor-row">
+          <div class="col-sm-12 col-md-3 sponsor-img-container">
+            <img
+              src="https://community.spotify.com/t5/image/serverpage/image-id/27289i6CB37DCE3D36368E?v=1.0"
+              alt=""
+              class="sponsor-img"
+              width="100%"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3 sponsor-img-container">
+            <img
+              src="https://cdn.windowsreport.com/wp-content/uploads/2016/08/itunes-windows-10.jpg"
+              alt=""
+              class="sponsor-img"
+              width="100%"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3 sponsor-img-container">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSy6M0Zw9FdCr0P0oW-4gJq7oH7EACiP0XC7snmz3479XDm4LEx"
+              alt=""
+              class="sponsor-img"
+              width="100%"
+            />
+          </div>
+        </div> -->
 
-    <section class="theme-section" id="theme">
-      <h1 class="theme-header">THEME</h1>
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-3 theme-card">
-          <div class="text-center ">
-            <img src="blockchain.svg" class="theme-img" />
-          </div>
-          <h1 class="text-center theme-card-header">Blockchain</h1>
-          <p>
-            Blockchain technology provides new infrastructure to build the next
-            innovative applications beyond cryptocurrencies, driving profound,
-            positive changes across business, communities and society.
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-3 theme-card">
-          <div class="text-center ">
-            <img src="ai.svg" class="theme-img" />
-          </div>
-
-          <h1 class="text-center theme-card-header">Artificial Intelligence</h1>
-          <p>
-            From the financial sector to the automobile industry, AI has a wide
-            range of applications. In today’s data-driven world, AI has the
-            potential to transform the economic landscape of the world. The
-            emergence of big data, graphics processing unit, and deep learning
-            has led to many advances in AI.
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-3 theme-card">
-          <div class="text-center ">
-            <img src="cyber-security.svg" class="theme-img" />
-          </div>
-          <h1 class="text-center theme-card-header">Security</h1>
-          <p>
-            Transactions, social media, and micro payments have created tons of
-            data that’s moving around. The importance of respecting privacy and
-            protecting against vicious data leakages while continuing to have a
-            smooth online world poses big challenges in the field of security.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="sponsor-section">
-      <h1 class="sponsor-header" id="sponsors">SPONSORS</h1>
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-3 sponsor-img-container">
-          <img
-            src="https://community.spotify.com/t5/image/serverpage/image-id/27289i6CB37DCE3D36368E?v=1.0"
-            alt=""
-            class="sponsor-img"
-            width="100%"
-          />
-        </div>
-        <div class="col-sm-12 col-md-3 sponsor-img-container">
-          <img
-            src="https://cdn.windowsreport.com/wp-content/uploads/2016/08/itunes-windows-10.jpg"
-            alt=""
-            class="sponsor-img"
-            width="100%"
-          />
-        </div>
-        <div class="col-sm-12 col-md-3 sponsor-img-container">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSy6M0Zw9FdCr0P0oW-4gJq7oH7EACiP0XC7snmz3479XDm4LEx"
-            alt=""
-            class="sponsor-img"
-            width="100%"
-          />
-        </div>
-      </div>
-      <section class="faq-section">
+      <section class="faq-section" id="faq">
         <h1 class="faq-header">FAQ</h1>
         <div class="row justify-content-center" style="width: 100%;">
           <div class="col-sm-12 col-md-6">
@@ -208,7 +258,7 @@
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-6 column-2">
             <div class="accordion-container">
               <div class="set">
                 <a href="#">
@@ -269,24 +319,54 @@
           </div>
         </div>
       </section>
-    </section>
+      <!-- </section> -->
 
-    <footer class="contact-us-footer">
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 ">
-          <div class="iframe-holder">
-            <!-- <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.309278583896!2d72.97877064654206!3d19.18168937095294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8da14eacea9%3A0xb4f1e032d9e4fc41!2sK%20C%20College%20Of%20Engineering%20Management%20Studies%20And%20Research!5e0!3m2!1sen!2sin!4v1580913041990!5m2!1sen!2sin"
-              frameborder="0"
-              style="border:0;"
-              width="100%"
-              height="300px"
-              allowfullscreen=""
-            ></iframe> -->
+      <footer class="contact-us-footer" id="contact">
+        <h1 class="contact-header">CONTACT US</h1>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-5 ">
+            <div class="number-wrapper">
+              <h4>
+                <span
+                  ><img
+                    src="https://img.icons8.com/office/30/000000/user-male-circle.png"/></span
+                >&nbsp; Bhaktij Koli : +91 7710848662
+              </h4>
+              <h4>
+                <img
+                  src="https://img.icons8.com/office/30/000000/user-male-circle.png"
+                />&nbsp;Abhishek Jaiswal : +91 8419925905
+              </h4>
+              <h4>
+                <img
+                  src="https://img.icons8.com/office/30/000000/user-male-circle.png"
+                />&nbsp;Aditya Malviya : +91 7021998679
+              </h4>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+            <div class="iframe-holder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.309278583896!2d72.97877064654206!3d19.18168937095294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8da14eacea9%3A0xb4f1e032d9e4fc41!2sK%20C%20College%20Of%20Engineering%20Management%20Studies%20And%20Research!5e0!3m2!1sen!2sin!4v1580913041990!5m2!1sen!2sin"
+                frameborder="0"
+                style="border:0;"
+                width="100%"
+                height="300px"
+                allowfullscreen=""
+              ></iframe>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+        <div class="text-center social-links">
+          <span
+            ><img src="https://img.icons8.com/color/44/000000/facebook-new.png"
+          /></span>
+          <span
+            ><img src="https://img.icons8.com/color/44/000000/instagram-new.png"
+          /></span>
+        </div>
+      </footer>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
