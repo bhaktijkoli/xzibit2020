@@ -13,6 +13,9 @@ body {
 }
 
 /* Header section */
+.nav {
+  z-index: 100;
+}
 .nav-link:link,
 .nav-link:visited {
   color: white;
@@ -120,7 +123,9 @@ li span {
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.151);
   transition: all 0.4s;
 }
-
+.card-row2 {
+  margin-top: -70px;
+}
 .theme-card:hover {
   transform: translateY(-5px);
 }
@@ -137,7 +142,7 @@ li span {
 }
 
 .theme-img {
-  height: 100px;
+  height: 150px;
 }
 
 .theme-header {
@@ -327,6 +332,10 @@ li span {
 }
 
 /* FAQ */
+.faq-section {
+  background-image: url('faq.svg');
+  background-size: cover;
+}
 .faq-header {
   position: absolute;
   left: 10%;
@@ -426,11 +435,48 @@ li span {
   margin-top: 50px;
 }
 /* Media queries */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 1050px) {
   .wrapper {
     overflow-x: hidden;
     position: relative;
   }
+  .secondprize-rs {
+    margin-top: 430px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+  nav {
+    background-color: #320374;
+  }
+  .header-section {
+    clip-path: polygon(100% 0, 100% 25%, 100% 80%, 0 95%, 0 75%, 0 0);
+  }
+  .prize-section {
+    background-image: url('prizetab.svg');
+    background-size: cover;
+  }
+  .firstprize-rs {
+    margin-top: 430px;
+  }
+  .secondprize-rs {
+    margin-top: 430px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+  nav {
+    background-color: #320374;
+  }
+
   .header-section {
     clip-path: none;
     background-image: url('phone-header330.svg');
@@ -450,9 +496,12 @@ li span {
   .timer {
     top: 10%;
     left: 10%;
+    z-index: 1;
   }
   .theme-section {
-    height: 230vh;
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 150vh;
   }
   .theme-card:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -479,8 +528,12 @@ li span {
   .secondprize-rs {
     margin-top: 600px;
   }
+  .rules-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
   .rule-wrapper {
-    word-wrap: break-word;
+    margin-left: 0px;
   }
   .sponsor-img-container:nth-child(1) {
     margin: 100px 30px 5px 30px;
@@ -497,5 +550,212 @@ li span {
 
   .column-2 {
     margin-top: -80px;
+  }
+  .contact-us-footer {
+    background-image: url('footer1.svg');
+    height: 130vh;
+  }
+  .number-wrapper {
+    margin: 300px 0px 10px 10px;
+  }
+  .number-span {
+    display: block;
+  }
+  .iframe-holder {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+  nav {
+    background-color: #320374;
+  }
+
+  .header-section {
+    clip-path: none;
+    background-image: url('phone-header330.svg');
+    height: 100vh;
+  }
+  .header-main {
+    top: 55%;
+    left: 10%;
+  }
+  li:nth-child(2) {
+    margin-right: 20px;
+  }
+
+  li:nth-child(3) {
+    margin-right: 0px;
+  }
+  .timer {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+  }
+  .theme-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 150vh;
+  }
+  .theme-card:nth-child(1) {
+    margin: 100px 10px 5px 10px;
+  }
+  .theme-card:nth-child(2) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(3) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(4) {
+    margin: 10px 10px;
+  }
+  .prize-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
+  .medal2 {
+    margin-top: 500px;
+  }
+  .secondprize {
+    margin-top: 550px;
+  }
+  .secondprize-rs {
+    margin-top: 600px;
+  }
+  .rules-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
+  .rule-wrapper {
+    margin-left: 0px;
+  }
+  .sponsor-img-container:nth-child(1) {
+    margin: 100px 30px 5px 30px;
+  }
+
+  .sponsor-img-container {
+    margin: 10px 30px;
+  }
+  .accordion-container:nth-child(1) {
+    max-width: 500px;
+    margin: 100px 40px 5px 10px;
+    padding-right: 0;
+  }
+
+  .column-2 {
+    margin-top: -80px;
+  }
+  .contact-us-footer {
+    background-image: url('footer1.svg');
+    height: 130vh;
+  }
+  .number-wrapper {
+    margin: 300px 0px 10px 10px;
+  }
+  .number-span {
+    display: block;
+  }
+  .iframe-holder {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+  nav {
+    background-color: #320374;
+  }
+
+  .header-section {
+    clip-path: none;
+    background-image: url('phone-header330.svg');
+    height: 100vh;
+  }
+  .header-main {
+    top: 55%;
+    left: 10%;
+  }
+  li:nth-child(2) {
+    margin-right: 20px;
+  }
+
+  li:nth-child(3) {
+    margin-right: 0px;
+  }
+  .timer {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+  }
+  .theme-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 150vh;
+  }
+  .theme-card:nth-child(1) {
+    margin: 100px 10px 5px 10px;
+  }
+  .theme-card:nth-child(2) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(3) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(4) {
+    margin: 10px 10px;
+  }
+  .prize-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
+  .medal2 {
+    margin-top: 500px;
+  }
+  .secondprize {
+    margin-top: 550px;
+  }
+  .secondprize-rs {
+    margin-top: 600px;
+  }
+  .rules-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
+  .rule-wrapper {
+    margin-left: 0px;
+  }
+  .sponsor-img-container:nth-child(1) {
+    margin: 100px 30px 5px 30px;
+  }
+
+  .sponsor-img-container {
+    margin: 10px 30px;
+  }
+  .accordion-container:nth-child(1) {
+    max-width: 500px;
+    margin: 100px 40px 5px 10px;
+    padding-right: 0;
+  }
+
+  .column-2 {
+    margin-top: -80px;
+  }
+  .contact-us-footer {
+    background-image: url('footer1.svg');
+    height: 130vh;
+  }
+  .number-wrapper {
+    margin: 300px 0px 10px 10px;
+  }
+
+  .iframe-holder {
+    margin-top: 20px;
   }
 }
