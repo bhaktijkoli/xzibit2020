@@ -522,11 +522,14 @@ li span {
   .medal2 {
     margin-top: 500px;
   }
+  .firstprize-rs {
+    margin-top: 390px;
+  }
   .secondprize {
-    margin-top: 550px;
+    margin-top: 590px;
   }
   .secondprize-rs {
-    margin-top: 600px;
+    margin-top: 640px;
   }
   .rules-section {
     background-image: url('phone1.svg');
@@ -620,11 +623,14 @@ li span {
   .medal2 {
     margin-top: 500px;
   }
+  .firstprize-rs {
+    margin-top: 380px;
+  }
   .secondprize {
-    margin-top: 550px;
+    margin-top: 590px;
   }
   .secondprize-rs {
-    margin-top: 600px;
+    margin-top: 640px;
   }
   .rules-section {
     background-image: url('phone1.svg');
@@ -671,6 +677,7 @@ li span {
   }
   nav {
     background-color: #320374;
+    z-index: 100;
   }
 
   .header-section {
@@ -718,11 +725,14 @@ li span {
   .medal2 {
     margin-top: 500px;
   }
+  .firstprize-rs {
+    margin-top: 370px;
+  }
   .secondprize {
-    margin-top: 550px;
+    margin-top: 590px;
   }
   .secondprize-rs {
-    margin-top: 600px;
+    margin-top: 640px;
   }
   .rules-section {
     background-image: url('phone1.svg');
