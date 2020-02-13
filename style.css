@@ -200,7 +200,17 @@ li span {
 .medal2 {
   background-color: #d7d7d7;
 }
-
+.prize-context-row {
+  position: relative;
+}
+.prize-context-col {
+  margin-top: 420px;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 .prize {
   position: relative;
 }
@@ -475,6 +485,23 @@ li span {
   .rules-section {
     height: 50vh;
   }
+  .prize-context-col {
+    margin-top: 600px;
+
+    left: 33%;
+  }
+  .theme-section {
+    height: 70vh;
+  }
+  .number-wrapper {
+    margin: 380px 0px 10px 130px;
+  }
+  .iframe-holder {
+    margin-top: 370px;
+  }
+  .theme-img {
+    height: 130px;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -682,13 +709,30 @@ li span {
   nav {
     z-index: 100;
   }
+  .theme-section {
+    height: 120vh;
+  }
+  .prize-section {
+    height: 100vh;
+  }
   .rules-header {
     margin-top: 80px;
+  }
+  .prize-context-col {
+    margin-top: 700px;
+
+    left: 10%;
+  }
+  .accordion-container:nth-child(1) {
+    margin: 100px 10px 5px 10px;
   }
 }
 @media screen and (device-width: 411px) and (device-height: 823px) {
   nav {
     z-index: 100;
+  }
+  .theme-section {
+    height: 110vh;
   }
   /* .prize-section {
     margin-top: 150px;
@@ -702,21 +746,36 @@ li span {
   .rules-header {
     margin-top: 50px;
   }
+  .prize-context-col {
+    margin-top: 700px;
+    left: 10%;
+  }
 }
 
 @media screen and (device-width: 411px) and (device-height: 731px) {
   nav {
     z-index: 100;
   }
-  /* .prize-section {
-    margin-top: 150px;
+  .theme-section {
+    height: 120vh;
   }
-  .rules-section {
-    margin-top: 150px;
+  .prize-section {
+    height: 110vh;
   }
-  .rule-wrapper {
-    margin-top: 130px;
-  } */
+  .prize-context-col {
+    margin-top: 700px;
+    left: 10%;
+  }
+  .firstprize {
+    margin-top: 300px;
+  }
+  .firstprize-rs {
+    margin-top: 360px;
+  }
+  .accordion-container:nth-child(1) {
+    margin: 100px 10px 5px 10px;
+  }
+
   .rules-header {
     margin-top: 50px;
   }
@@ -725,18 +784,50 @@ li span {
   nav {
     z-index: 100;
   }
+  .theme-section {
+    height: 110vh;
+  }
+  .prize-section {
+    height: 100vh;
+  }
+  .prize-context-col {
+    margin-top: 700px;
+
+    left: 10%;
+  }
+  .accordion-container:nth-child(1) {
+    max-width: 500px;
+    margin: 100px 10px 5px 10px;
+  }
+  .faq-section {
+    height: 70vh;
+  }
 }
 @media screen and (device-width: 375px) and (device-height: 667px) {
   nav {
     z-index: 100;
   }
+  .theme-section {
+    height: 120vh;
+  }
 
   .prize-section {
     margin-top: 100px;
-    height: 110vh;
+    height: 130vh;
   }
   .rule-wrapper {
     margin-top: 100px;
+  }
+  .prize-context-col {
+    margin-top: 700px;
+
+    left: 10%;
+  }
+  .faq-section {
+    height: 90vh;
+  }
+  .accordion-container:nth-child(1) {
+    margin: 100px 10px 5px 10px;
   }
 }
 
@@ -744,7 +835,11 @@ li span {
   nav {
     z-index: 100;
   }
+  .theme-section {
+    height: 110vh;
+  }
   .prize-section {
+    height: 100vh;
     margin-top: 150px;
   }
   .rules-section {
@@ -752,6 +847,18 @@ li span {
   }
   .rule-wrapper {
     margin-top: 130px;
+  }
+  .prize-context-col {
+    margin-top: 680px;
+
+    top: 50%;
+    left: 7%;
+  }
+  .faq-section {
+    height: 90vh;
+  }
+  .accordion-container:nth-child(1) {
+    margin: 100px 10px 5px 10px;
   }
 }
 
@@ -859,12 +966,23 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 200vh;
+    height: 160vh;
   }
   .prize-section {
-    height: 130vh;
+    height: 150vh;
   }
   .rule-wrapper {
     margin-top: 100px;
+  }
+  .prize-context-col {
+    margin-top: 700px;
+    left: 10%;
+  }
+  .faq-section {
+    height: 110vh;
+  }
+  .accordion-container:nth-child(1) {
+    max-width: 500px;
+    margin: 100px 10px 5px 10px;
   }
 }
