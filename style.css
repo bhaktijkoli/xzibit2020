@@ -468,6 +468,15 @@ li span {
   }
 }
 
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+  nav {
+    z-index: 100;
+  }
+  .rules-section {
+    height: 50vh;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .wrapper {
     overflow-x: hidden;
@@ -669,6 +678,82 @@ li span {
     margin-top: 20px;
   }
 }
+@media screen and (device-width: 414px) and (device-height: 736px) {
+  nav {
+    z-index: 100;
+  }
+  .rules-header {
+    margin-top: 80px;
+  }
+}
+@media screen and (device-width: 411px) and (device-height: 823px) {
+  nav {
+    z-index: 100;
+  }
+  /* .prize-section {
+    margin-top: 150px;
+  }
+  .rules-section {
+    margin-top: 150px;
+  }
+  .rule-wrapper {
+    margin-top: 130px;
+  } */
+  .rules-header {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (device-width: 411px) and (device-height: 731px) {
+  nav {
+    z-index: 100;
+  }
+  /* .prize-section {
+    margin-top: 150px;
+  }
+  .rules-section {
+    margin-top: 150px;
+  }
+  .rule-wrapper {
+    margin-top: 130px;
+  } */
+  .rules-header {
+    margin-top: 50px;
+  }
+}
+@media screen and (device-width: 375px) and (device-height: 812px) {
+  nav {
+    z-index: 100;
+  }
+}
+@media screen and (device-width: 375px) and (device-height: 667px) {
+  nav {
+    z-index: 100;
+  }
+
+  .prize-section {
+    margin-top: 100px;
+    height: 110vh;
+  }
+  .rule-wrapper {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  nav {
+    z-index: 100;
+  }
+  .prize-section {
+    margin-top: 150px;
+  }
+  .rules-section {
+    margin-top: 150px;
+  }
+  .rule-wrapper {
+    margin-top: 130px;
+  }
+}
 
 @media screen and (max-width: 340px) {
   .wrapper {
@@ -767,5 +852,19 @@ li span {
 
   .iframe-holder {
     margin-top: 20px;
+  }
+}
+@media screen and (device-width: 320px) and (device-height: 568px) {
+  nav {
+    z-index: 100;
+  }
+  .theme-section {
+    height: 200vh;
+  }
+  .prize-section {
+    height: 130vh;
+  }
+  .rule-wrapper {
+    margin-top: 100px;
   }
 }
