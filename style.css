@@ -527,7 +527,7 @@ li span {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .wrapper {
     overflow-x: hidden;
     position: relative;
