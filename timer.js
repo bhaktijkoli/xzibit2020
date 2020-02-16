@@ -31,7 +31,9 @@ $(document).ready(function() {
   var faq = document.getElementById('faq');
   $('.set > a').on('click', function() {
     var faq = document.getElementById('faq');
-    faq.style.height = '120vh';
+    if (screen.height < 1000) {
+      faq.style.height = '120vh';
+    }
     if ($(this).hasClass('active')) {
       event.preventDefault();
       $(this).removeClass('active');
@@ -44,7 +46,9 @@ $(document).ready(function() {
     } else {
       event.preventDefault();
       var faq = document.getElementById('faq');
-      faq.style.height = '140vh';
+      if (screen.height < 1000) {
+        faq.style.height = '140vh';
+      }
       $('.set > a i')
         .removeClass('fa-minus')
         .addClass('fa-plus');

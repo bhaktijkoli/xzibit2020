@@ -207,7 +207,7 @@ li span {
   margin-top: 420px;
   position: absolute;
   top: 50%;
-  left: 27%;
+  left: 43%;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
@@ -527,7 +527,7 @@ li span {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .wrapper {
     overflow-x: hidden;
     position: relative;
