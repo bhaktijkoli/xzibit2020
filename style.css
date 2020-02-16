@@ -108,7 +108,7 @@ li span {
 
 /* Theme */
 .theme-section {
-  height: 100vh;
+  height: 70vh;
   background-image: url('theme.svg');
   background-size: cover;
   position: relative;
@@ -462,19 +462,42 @@ li span {
   }
   nav {
     background-color: #320374;
+    z-index: 100;
   }
+
   .header-section {
     clip-path: polygon(100% 0, 100% 25%, 100% 80%, 0 95%, 0 75%, 0 0);
+  }
+  .theme-section {
+    height: 80vh;
   }
   .prize-section {
     background-image: url('prizetab.svg');
     background-size: cover;
+    height: 100vh;
+  }
+
+  .prize-context-col {
+    margin-top: 480px;
+
+    left: 40%;
   }
   .firstprize-rs {
     margin-top: 430px;
   }
   .secondprize-rs {
     margin-top: 430px;
+  }
+  .rule-wrapper {
+    margin-top: 130px;
+    margin-left: -190px;
+  }
+
+  .number-span {
+    display: block;
+  }
+  .social-links {
+    margin-top: -60px;
   }
 }
 
@@ -511,12 +534,13 @@ li span {
   }
   nav {
     background-color: #320374;
+    z-index: 100;
   }
 
   .header-section {
     clip-path: none;
     background-image: url('phone-header330.svg');
-    height: 100vh;
+    height: 110vh;
   }
   .header-main {
     top: 55%;
@@ -537,7 +561,7 @@ li span {
   .theme-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 150vh;
+    height: 170vh;
   }
   .theme-card:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -554,6 +578,7 @@ li span {
   .prize-section {
     background-image: url('phone1.svg');
     background-size: cover;
+    height: 140vh;
   }
   .medal2 {
     margin-top: 500px;
@@ -567,12 +592,17 @@ li span {
   .secondprize-rs {
     margin-top: 640px;
   }
+  .prize-context-col {
+    margin-top: 690px;
+
+    left: 30%;
+  }
   .rules-section {
     background-image: url('phone1.svg');
     background-size: cover;
   }
   .rule-wrapper {
-    margin-left: 0px;
+    margin: 100px 10px;
   }
   .sponsor-img-container:nth-child(1) {
     margin: 100px 30px 5px 30px;
@@ -581,9 +611,14 @@ li span {
   .sponsor-img-container {
     margin: 10px 30px;
   }
+  .faq-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 120vh;
+  }
   .accordion-container:nth-child(1) {
     max-width: 500px;
-    margin: 100px 40px 5px 10px;
+    margin: 100px 10px 5px 30px;
     padding-right: 0;
   }
 
@@ -595,7 +630,7 @@ li span {
     height: 130vh;
   }
   .number-wrapper {
-    margin: 300px 0px 10px 10px;
+    margin: 200px 0px 10px 10px;
   }
   .number-span {
     display: block;
@@ -605,106 +640,6 @@ li span {
   }
 }
 
-@media screen and (max-width: 380px) {
-  .wrapper {
-    overflow-x: hidden;
-    position: relative;
-  }
-  nav {
-    background-color: #320374;
-  }
-
-  .header-section {
-    clip-path: none;
-    background-image: url('phone-header330.svg');
-    height: 100vh;
-  }
-  .header-main {
-    top: 55%;
-    left: 10%;
-  }
-  li:nth-child(2) {
-    margin-right: 20px;
-  }
-
-  li:nth-child(3) {
-    margin-right: 0px;
-  }
-  .timer {
-    top: 10%;
-    left: 10%;
-    z-index: 1;
-  }
-  .theme-section {
-    background-image: url('phone1.svg');
-    background-size: cover;
-    height: 150vh;
-  }
-  .theme-card:nth-child(1) {
-    margin: 100px 10px 5px 10px;
-  }
-  .theme-card:nth-child(2) {
-    margin: 10px 10px;
-  }
-  .theme-card:nth-child(3) {
-    margin: 10px 10px;
-  }
-  .theme-card:nth-child(4) {
-    margin: 10px 10px;
-  }
-  .prize-section {
-    background-image: url('phone1.svg');
-    background-size: cover;
-  }
-  .medal2 {
-    margin-top: 500px;
-  }
-  .firstprize-rs {
-    margin-top: 380px;
-  }
-  .secondprize {
-    margin-top: 590px;
-  }
-  .secondprize-rs {
-    margin-top: 640px;
-  }
-  .rules-section {
-    background-image: url('phone1.svg');
-    background-size: cover;
-  }
-  .rule-wrapper {
-    margin-left: 0px;
-  }
-  .sponsor-img-container:nth-child(1) {
-    margin: 100px 30px 5px 30px;
-  }
-
-  .sponsor-img-container {
-    margin: 10px 30px;
-  }
-  .accordion-container:nth-child(1) {
-    max-width: 500px;
-    margin: 100px 40px 5px 10px;
-    padding-right: 0;
-  }
-
-  .column-2 {
-    margin-top: -80px;
-  }
-  .contact-us-footer {
-    background-image: url('footer1.svg');
-    height: 130vh;
-  }
-  .number-wrapper {
-    margin: 300px 0px 10px 10px;
-  }
-  .number-span {
-    display: block;
-  }
-  .iframe-holder {
-    margin-top: 20px;
-  }
-}
 @media screen and (device-width: 414px) and (device-height: 736px) {
   nav {
     z-index: 100;
@@ -734,10 +669,10 @@ li span {
   .theme-section {
     height: 110vh;
   }
-  /* .prize-section {
-    margin-top: 150px;
+  .prize-section {
+    height: 90vh;
   }
-  .rules-section {
+  /*.rules-section {
     margin-top: 150px;
   }
   .rule-wrapper {
@@ -764,7 +699,8 @@ li span {
   }
   .prize-context-col {
     margin-top: 700px;
-    left: 10%;
+
+    left: 27%;
   }
   .firstprize {
     margin-top: 300px;
@@ -778,6 +714,123 @@ li span {
 
   .rules-header {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+  nav {
+    background-color: #320374;
+    z-index: 100;
+  }
+
+  .header-section {
+    clip-path: none;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.15)
+      ),
+      url('phone-header330.svg');
+    height: 100vh;
+  }
+  .header-main {
+    top: 55%;
+    left: 10%;
+  }
+  li:nth-child(2) {
+    margin-right: 20px;
+  }
+
+  li:nth-child(3) {
+    margin-right: 0px;
+  }
+  .timer {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+  }
+  .theme-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 170vh;
+  }
+  .theme-card:nth-child(1) {
+    margin: 100px 10px 5px 10px;
+  }
+  .theme-card:nth-child(2) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(3) {
+    margin: 10px 10px;
+  }
+  .theme-card:nth-child(4) {
+    margin: 10px 10px;
+  }
+  .prize-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 150vh;
+  }
+  .prize-context-col {
+    margin-top: 690px;
+    left: 27%;
+  }
+  .medal2 {
+    margin-top: 500px;
+  }
+  .firstprize-rs {
+    margin-top: 380px;
+  }
+  .secondprize {
+    margin-top: 590px;
+  }
+  .secondprize-rs {
+    margin-top: 640px;
+  }
+  .rules-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+  }
+  .rule-wrapper {
+    margin: 100px 0px;
+  }
+  .sponsor-img-container:nth-child(1) {
+    margin: 100px 30px 5px 30px;
+  }
+
+  .sponsor-img-container {
+    margin: 10px 30px;
+  }
+  .faq-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 120vh;
+  }
+  .accordion-container:nth-child(1) {
+    max-width: 500px;
+    margin: 100px 10px 5px 30px;
+    padding-right: 0;
+  }
+
+  .column-2 {
+    margin-top: -80px;
+  }
+  .contact-us-footer {
+    background-image: url('footer1.svg');
+    height: 130vh;
+  }
+  .number-wrapper {
+    margin: 200px 0px 10px 10px;
+  }
+  .number-span {
+    display: block;
+  }
+  .iframe-holder {
+    margin-top: 20px;
   }
 }
 @media screen and (device-width: 375px) and (device-height: 812px) {
@@ -801,6 +854,12 @@ li span {
   }
   .faq-section {
     height: 70vh;
+  }
+  .rules-section {
+    height: 60vh;
+  }
+  .number-wrapper {
+    margin: 200px 0px 10px 100px;
   }
 }
 @media screen and (device-width: 375px) and (device-height: 667px) {
@@ -852,7 +911,8 @@ li span {
     margin-top: 680px;
 
     top: 50%;
-    left: 7%;
+
+    left: 27%;
   }
   .faq-section {
     height: 90vh;
@@ -874,12 +934,20 @@ li span {
 
   .header-section {
     clip-path: none;
-    background-image: url('phone-header330.svg');
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.15)
+      ),
+      url('phone-header330.svg');
     height: 100vh;
   }
   .header-main {
     top: 55%;
     left: 10%;
+  }
+  .header-sub-text {
+    color: white;
   }
   li:nth-child(2) {
     margin-right: 20px;
@@ -888,6 +956,10 @@ li span {
   li:nth-child(3) {
     margin-right: 0px;
   }
+  .timer-list:nth-child(4) {
+    visibility: hidden;
+  }
+
   .timer {
     top: 10%;
     left: 10%;
@@ -896,7 +968,7 @@ li span {
   .theme-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 150vh;
+    height: 170vh;
   }
   .theme-card:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -913,6 +985,7 @@ li span {
   .prize-section {
     background-image: url('phone1.svg');
     background-size: cover;
+    height: 150vh;
   }
   .medal2 {
     margin-top: 500px;
@@ -926,12 +999,18 @@ li span {
   .secondprize-rs {
     margin-top: 640px;
   }
+  .prize-context-col {
+    margin-top: 680px;
+
+    left: 27%;
+  }
   .rules-section {
     background-image: url('phone1.svg');
     background-size: cover;
+    height: 100vh;
   }
   .rule-wrapper {
-    margin-left: 0px;
+    margin: 100px 0px;
   }
   .sponsor-img-container:nth-child(1) {
     margin: 100px 30px 5px 30px;
@@ -940,12 +1019,20 @@ li span {
   .sponsor-img-container {
     margin: 10px 30px;
   }
+  .faq-section {
+    background-image: url('phone1.svg');
+    background-size: cover;
+    height: 120vh;
+  }
   .accordion-container:nth-child(1) {
     max-width: 500px;
-    margin: 100px 40px 5px 10px;
+    margin: 100px 10px 5px 30px;
     padding-right: 0;
   }
 
+  .faq-height {
+    height: 200vh;
+  }
   .column-2 {
     margin-top: -80px;
   }
@@ -954,7 +1041,7 @@ li span {
     height: 130vh;
   }
   .number-wrapper {
-    margin: 300px 0px 10px 10px;
+    margin: 200px 0px 10px 10px;
   }
 
   .iframe-holder {
@@ -976,7 +1063,7 @@ li span {
   }
   .prize-context-col {
     margin-top: 700px;
-    left: 10%;
+    left: 25%;
   }
   .faq-section {
     height: 110vh;

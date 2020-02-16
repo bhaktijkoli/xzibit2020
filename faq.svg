@@ -29,8 +29,8 @@
     <rect width="1920" height="1080" fill="#fff"/>
     <path id="grey1" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="matrix(-0.309, -0.951, 0.951, -0.309, 446.811, 504.758)" fill="rgba(132,130,139,0.11)" stroke="#fff" stroke-width="1"/>
     <path id="grey1-2" data-name="grey1" d="M209.44,0l-2.221.726L0,151.773l78.72,238.2H341.49l80.938-238.2L211.6.5Z" transform="matrix(0.921, -0.391, 0.391, 0.921, 810.524, 164.746)" fill="rgba(132,130,139,0.09)" stroke="#fff" stroke-width="1"/>
-    <path id="Path_10" data-name="Path 10" d="M428.931,0l-4.549,1.5L0,313.643,161.217,805.9H699.366L865.125,313.643Z" transform="translate(-30.403 -469.669) rotate(47)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
-    <path id="grey1-3" data-name="grey1" d="M286.69,0l-3.041,1.015L0,212.372,107.755,545.686H467.443l110.79-333.314L289.649.7Z" transform="matrix(0.946, -0.326, 0.326, 0.946, 1431.651, 131.96)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
+    <path id="Path_10" data-name="Path 10" d="M428.931,0l-4.549,1.5L0,313.643,161.217,805.9H699.366L865.125,313.643Z" transform="translate(2012.597 -319.669) rotate(47)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="grey1-3" data-name="grey1" d="M286.69,0l-3.041,1.015L0,212.372,107.755,545.686H467.443l110.79-333.314L289.649.7Z" transform="matrix(0.946, -0.326, 0.326, 0.946, -331.349, 131.96)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
     <path id="darkblue" d="M73.257,0,72.48.262,0,54.855l27.534,86.094h91.911l28.31-86.094L74.014.181Z" transform="matrix(0.017, 1, -1, 0.017, 1492.392, 441.201)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-2)"/>
   </g>
 </svg>

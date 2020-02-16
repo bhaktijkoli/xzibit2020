@@ -33,9 +33,9 @@
       <path id="darkblue-2" data-name="darkblue" d="M60.668,0l-.644.224L0,46.855l22.8,73.539H98.918l23.445-73.539L61.294.154Z" transform="matrix(0.616, 0.788, -0.788, 0.616, -2538.762, 8645.729)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
       <path id="darkblue-3" data-name="darkblue" d="M60.668,0l-.644.224L0,46.855l22.8,73.539H98.918l23.445-73.539L61.294.154Z" transform="matrix(0.966, 0.259, -0.259, 0.966, -2705.048, 8720.048)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
       <path id="darkblue-4" data-name="darkblue" d="M147.619,0l-1.566.529L0,110.537,55.484,284.022H240.691l57.047-173.485L149.143.364Z" transform="translate(-873.705 8560.187) rotate(40)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
-      <path id="grey1" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="translate(-1573.824 9365.091) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
-      <path id="grey" d="M223.891,0l-2.375.793L0,165.853l84.151,260.3h280.9l86.522-260.3L226.2.546Z" transform="translate(-2915.824 9317.091) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
+      <path id="grey1" d="M128.452,0,127.09.455,0,95.154,48.28,244.5H209.44L259.08,95.154,129.779.313Z" transform="translate(-1622.703 8835.653) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
+      <path id="grey" d="M134.724,0,133.3.477,0,99.8,50.637,256.435H219.666L271.73,99.8,136.115.328Z" transform="translate(-2498.025 9086.233) rotate(-84)" fill="rgba(132,130,139,0.23)" stroke="#fff" stroke-width="1"/>
     </g>
-    <path id="Path_10" data-name="Path 10" d="M179.965,0l-1.909.63L0,131.594,67.641,338.128H293.43l69.547-206.534Z" transform="translate(743.183 268.25) rotate(100)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-5)"/>
+    <path id="Path_10" data-name="Path 10" d="M179.965,0l-1.909.63L0,131.594,67.641,338.128H293.43l69.547-206.534Z" transform="translate(991.183 77.25) rotate(100)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-5)"/>
   </g>
 </svg>

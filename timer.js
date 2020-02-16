@@ -28,7 +28,10 @@ let countDown = new Date('March 15, 2020 00:00:00').getTime(),
   }, second);
 
 $(document).ready(function() {
+  var faq = document.getElementById('faq');
   $('.set > a').on('click', function() {
+    var faq = document.getElementById('faq');
+    faq.style.height = '120vh';
     if ($(this).hasClass('active')) {
       event.preventDefault();
       $(this).removeClass('active');
@@ -40,6 +43,8 @@ $(document).ready(function() {
         .addClass('fa-plus');
     } else {
       event.preventDefault();
+      var faq = document.getElementById('faq');
+      faq.style.height = '140vh';
       $('.set > a i')
         .removeClass('fa-minus')
         .addClass('fa-plus');
@@ -47,8 +52,10 @@ $(document).ready(function() {
         .find('i')
         .removeClass('fa-plus')
         .addClass('fa-minus');
+
       $('.set > a').removeClass('active');
       $(this).addClass('active');
+
       $('.content').slideUp(200);
       $(this)
         .siblings('.content')
