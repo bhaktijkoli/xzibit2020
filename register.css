@@ -1,39 +1,132 @@
-body {
-  padding: 0px;
-  margin: 0px;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-center h1 {
-  color: #40244e;
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: rgba(107, 0, 247, 0.616);
+}
+.formm {
+  background-color: white;
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+.form-section {
+  box-shadow: 0px 10px 20px #00000057;
+  margin: 70px auto;
+  padding: 40px;
+  background-image: url('register.svg');
+  border-radius: 10px;
 }
 
-label:after {
+.header-main-text {
+  font-weight: 900;
+}
+.header-main-text::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50;
+  width: 10%;
+  left: 05%;
+  border-top: 3px solid rgba(107, 0, 247, 0.616);
+}
+.label {
+  font-weight: 900;
+}
+.label:after {
   content: '*';
   color: red;
-}
-.card {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding-top: 20px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-.col-sm-4 {
-  margin-bottom: 15px;
-}
-label {
-  font-size: 23px;
 }
 input[type='text'],
 input[type='email'] {
   width: 100%;
-  height: 50px;
-  padding: 0.375rem 0.75rem;
-  background: transparent;
-  font-size: 24px;
+  height: 40px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 5px;
 }
-button {
-  margin-top: 25px;
-  margin-bottom: 25px;
+
+input[type='text']:focus {
+  background-color: #f8fff5;
+  border-color: #6600cc;
+}
+input[type='email']:focus {
+  background-color: #f8fff5;
+  border-color: #6600cc;
+}
+input[type='radio'] {
+  margin: 7px;
+}
+.radio-row {
+  display: flex;
+}
+
+.radio {
+  margin: 0.5rem;
+}
+.radio input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+}
+.radio input[type='radio'] + .radio-label:before {
+  content: '';
+  background: #f4f4f4;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  position: relative;
+  top: -0.2em;
+  margin-right: 1em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+.radio input[type='radio']:checked + .radio-label:before {
+  background-color: #6600cc;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type='radio']:focus + .radio-label:before {
+  outline: none;
+  border-color: #6600cc;
+}
+.radio input[type='radio']:disabled + .radio-label:before {
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+  border-color: #b4b4b4;
+  background: #b4b4b4;
+}
+.radio input[type='radio'] + .radio-label:empty:before {
+  margin-right: 0;
+}
+
+.submit-btn {
+  background-color: rgb(104, 14, 165);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 50px;
+  transition: all 0.4s;
+}
+.submit-btn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+  }
+  .form-section {
+    background-image: url('registerphone.svg');
+  }
+  .form-section {
+    margin: 0px auto;
+  }
 }
