@@ -31,9 +31,10 @@ $(document).ready(function() {
   var faq = document.getElementById('faq');
   $('.set > a').on('click', function() {
     var faq = document.getElementById('faq');
-    if (screen.height < 1000) {
-      faq.style.height = '120vh';
+    if (screen.width < 700) {
+      faq.style.height = '700px';
     }
+
     if ($(this).hasClass('active')) {
       event.preventDefault();
       $(this).removeClass('active');
@@ -46,8 +47,8 @@ $(document).ready(function() {
     } else {
       event.preventDefault();
       var faq = document.getElementById('faq');
-      if (screen.height < 1000) {
-        faq.style.height = '140vh';
+      if (screen.width < 700) {
+        faq.style.height = '850px';
       }
       $('.set > a i')
         .removeClass('fa-minus')

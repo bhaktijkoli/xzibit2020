@@ -444,6 +444,7 @@ li span {
 .social-links {
   margin-top: 50px;
 }
+
 /* Media queries */
 @media screen and (max-width: 1050px) {
   .wrapper {
@@ -469,12 +470,12 @@ li span {
     clip-path: polygon(100% 0, 100% 25%, 100% 80%, 0 95%, 0 75%, 0 0);
   }
   .theme-section {
-    height: 80vh;
+    height: 450px;
   }
   .prize-section {
     background-image: url('prizetab.svg');
     background-size: cover;
-    height: 100vh;
+    height: 700px;
   }
 
   .prize-context-col {
@@ -489,8 +490,7 @@ li span {
     margin-top: 430px;
   }
   .rule-wrapper {
-    margin-top: 130px;
-    margin-left: -190px;
+    margin: 130px 0px 100px -150px;
   }
 
   .number-span {
@@ -506,7 +506,7 @@ li span {
     z-index: 100;
   }
   .rules-section {
-    height: 50vh;
+    height: 500px;
   }
   .prize-context-col {
     margin-top: 600px;
@@ -514,7 +514,7 @@ li span {
     left: 33%;
   }
   .theme-section {
-    height: 70vh;
+    height: 450px;
   }
   .number-wrapper {
     margin: 380px 0px 10px 130px;
@@ -561,7 +561,7 @@ li span {
   .theme-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 170vh;
+    height: 850px;
   }
   .theme-card:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -578,7 +578,7 @@ li span {
   .prize-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 140vh;
+    height: 700px;
   }
   .medal2 {
     margin-top: 500px;
@@ -598,11 +598,14 @@ li span {
     left: 30%;
   }
   .rules-section {
+    height: 500px;
+    margin-top: 40px;
+
     background-image: url('phone1.svg');
     background-size: cover;
   }
   .rule-wrapper {
-    margin: 100px 10px;
+    margin: 130px 0px 100px 10px;
   }
   .sponsor-img-container:nth-child(1) {
     margin: 100px 30px 5px 30px;
@@ -614,7 +617,7 @@ li span {
   .faq-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 120vh;
+    height: 700px;
   }
   .accordion-container:nth-child(1) {
     max-width: 500px;
@@ -630,7 +633,7 @@ li span {
     height: 130vh;
   }
   .number-wrapper {
-    margin: 200px 0px 10px 10px;
+    margin: 200px 0px 10px 90px;
   }
   .number-span {
     display: block;
@@ -645,10 +648,10 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 120vh;
+    height: 850px;
   }
   .prize-section {
-    height: 100vh;
+    height: 700px;
   }
   .rules-header {
     margin-top: 80px;
@@ -667,17 +670,18 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 110vh;
+    height: 850px;
   }
   .prize-section {
-    height: 90vh;
+    height: 700px;
   }
-  /*.rules-section {
-    margin-top: 150px;
+  .rules-section {
+    height: 500px;
+    margin-top: 40px;
   }
   .rule-wrapper {
-    margin-top: 130px;
-  } */
+    margin: 130px 0px 100px 10px;
+  }
   .rules-header {
     margin-top: 50px;
   }
@@ -692,10 +696,10 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 120vh;
+    height: 850px;
   }
   .prize-section {
-    height: 110vh;
+    height: 700px;
   }
   .prize-context-col {
     margin-top: 700px;
@@ -756,7 +760,7 @@ li span {
   .theme-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 170vh;
+    height: 850px;
   }
   .theme-card:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -773,7 +777,7 @@ li span {
   .prize-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 150vh;
+    height: 700px;
   }
   .prize-context-col {
     margin-top: 690px;
@@ -792,11 +796,14 @@ li span {
     margin-top: 640px;
   }
   .rules-section {
+    height: 500px;
+    margin-top: 40px;
+
     background-image: url('phone1.svg');
     background-size: cover;
   }
   .rule-wrapper {
-    margin: 100px 0px;
+    margin: 130px 0px 100px 10px;
   }
   .sponsor-img-container:nth-child(1) {
     margin: 100px 30px 5px 30px;
@@ -808,7 +815,7 @@ li span {
   .faq-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 120vh;
+    height: 700px;
   }
   .accordion-container:nth-child(1) {
     max-width: 500px;
@@ -838,10 +845,10 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 110vh;
+    height: 850px;
   }
   .prize-section {
-    height: 100vh;
+    height: 700px;
   }
   .prize-context-col {
     margin-top: 700px;
@@ -853,10 +860,11 @@ li span {
     margin: 100px 10px 5px 10px;
   }
   .faq-section {
-    height: 70vh;
+    height: 700px;
   }
   .rules-section {
-    height: 60vh;
+    height: 500px;
+    margin-top: 40px;
   }
   .number-wrapper {
     margin: 200px 0px 10px 100px;
@@ -867,15 +875,15 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 120vh;
+    height: 850px;
   }
 
   .prize-section {
     margin-top: 100px;
-    height: 130vh;
+    height: 700px;
   }
   .rule-wrapper {
-    margin-top: 100px;
+    margin: 130px 0px 100px 10px;
   }
   .prize-context-col {
     margin-top: 700px;
@@ -883,7 +891,7 @@ li span {
     left: 10%;
   }
   .faq-section {
-    height: 90vh;
+    height: 700px;
   }
   .accordion-container:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -895,17 +903,17 @@ li span {
     z-index: 100;
   }
   .theme-section {
-    height: 110vh;
+    height: 850px;
   }
   .prize-section {
-    height: 100vh;
-    margin-top: 150px;
+    height: 700px;
   }
   .rules-section {
-    margin-top: 150px;
+    height: 500px;
+    margin-top: 40px;
   }
   .rule-wrapper {
-    margin-top: 130px;
+    margin: 130px 0px 100px 10px;
   }
   .prize-context-col {
     margin-top: 680px;
@@ -915,7 +923,7 @@ li span {
     left: 27%;
   }
   .faq-section {
-    height: 90vh;
+    height: 700px;
   }
   .accordion-container:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -968,7 +976,7 @@ li span {
   .theme-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 170vh;
+    height: 850px;
   }
   .theme-card:nth-child(1) {
     margin: 100px 10px 5px 10px;
@@ -985,7 +993,7 @@ li span {
   .prize-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 150vh;
+    height: 700px;
   }
   .medal2 {
     margin-top: 500px;
@@ -1007,10 +1015,11 @@ li span {
   .rules-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 100vh;
+    height: 500px;
+    margin-top: 40px;
   }
   .rule-wrapper {
-    margin: 100px 0px;
+    margin: 130px 0px 100px 10px;
   }
   .sponsor-img-container:nth-child(1) {
     margin: 100px 30px 5px 30px;
@@ -1022,7 +1031,7 @@ li span {
   .faq-section {
     background-image: url('phone1.svg');
     background-size: cover;
-    height: 120vh;
+    height: 700px;
   }
   .accordion-container:nth-child(1) {
     max-width: 500px;
@@ -1056,17 +1065,17 @@ li span {
     height: 160vh;
   }
   .prize-section {
-    height: 150vh;
+    height: 720px;
   }
   .rule-wrapper {
-    margin-top: 100px;
+    margin: 130px 0px 100px 10px;
   }
   .prize-context-col {
     margin-top: 700px;
     left: 25%;
   }
   .faq-section {
-    height: 110vh;
+    height: 700px;
   }
   .accordion-container:nth-child(1) {
     max-width: 500px;

@@ -43,14 +43,18 @@ body {
   color: red;
 }
 input[type='text'],
-input[type='email'] {
+input[type='email'],
+input[type='number'] {
   width: 100%;
   height: 40px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   margin: 5px;
 }
-
+input[type='number']:focus {
+  background-color: #f8fff5;
+  border-color: #6600cc;
+}
 input[type='text']:focus {
   background-color: #f8fff5;
   border-color: #6600cc;
@@ -106,7 +110,10 @@ input[type='radio'] {
 .radio input[type='radio'] + .radio-label:empty:before {
   margin-right: 0;
 }
-
+.payment-para {
+  font-weight: 900;
+  padding: 5px;
+}
 .submit-btn {
   background-color: rgb(104, 14, 165);
   color: white;
@@ -117,6 +124,11 @@ input[type='radio'] {
 }
 .submit-btn:hover {
   transform: scale(1.1);
+}
+@media screen and (max-width: 1100px) {
+  .form-section {
+    background-image: url('register-1.svg');
+  }
 }
 
 @media screen and (max-width: 780px) {
