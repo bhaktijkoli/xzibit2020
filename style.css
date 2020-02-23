@@ -446,6 +446,20 @@ li span {
 }
 
 /* Media queries */
+@media screen and (min-width: 1400px) {
+  .theme-section {
+    height: 50vh;
+  }
+  .prize-section {
+    height: 70vh;
+  }
+  .rules-section {
+    height: 70vh;
+  }
+  .contact-us-footer {
+    height: 70vh;
+  }
+}
 @media screen and (max-width: 1050px) {
   .wrapper {
     overflow-x: hidden;
@@ -468,6 +482,7 @@ li span {
 
   .header-section {
     clip-path: polygon(100% 0, 100% 25%, 100% 80%, 0 95%, 0 75%, 0 0);
+    height: 700px;
   }
   .theme-section {
     height: 450px;
@@ -505,6 +520,9 @@ li span {
   nav {
     z-index: 100;
   }
+  .header-section {
+    height: 700px;
+  }
   .rules-section {
     height: 500px;
   }
@@ -540,7 +558,7 @@ li span {
   .header-section {
     clip-path: none;
     background-image: url('phone-header330.svg');
-    height: 110vh;
+    height: 700px;
   }
   .header-main {
     top: 55%;
@@ -647,6 +665,9 @@ li span {
   nav {
     z-index: 100;
   }
+  .header-section {
+    height: 700px;
+  }
   .theme-section {
     height: 850px;
   }
@@ -668,6 +689,9 @@ li span {
 @media screen and (device-width: 411px) and (device-height: 823px) {
   nav {
     z-index: 100;
+  }
+  .header-section {
+    height: 700px;
   }
   .theme-section {
     height: 850px;
@@ -694,6 +718,9 @@ li span {
 @media screen and (device-width: 411px) and (device-height: 731px) {
   nav {
     z-index: 100;
+  }
+  .header-section {
+    height: 700px;
   }
   .theme-section {
     height: 850px;
@@ -739,7 +766,7 @@ li span {
         rgba(0, 0, 0, 0.15)
       ),
       url('phone-header330.svg');
-    height: 100vh;
+    height: 700px;
   }
   .header-main {
     top: 55%;
@@ -844,6 +871,9 @@ li span {
   nav {
     z-index: 100;
   }
+  .header-section {
+    height: 700px;
+  }
   .theme-section {
     height: 850px;
   }
@@ -874,6 +904,9 @@ li span {
   nav {
     z-index: 100;
   }
+  .header-section {
+    height: 700px;
+  }
   .theme-section {
     height: 850px;
   }
@@ -901,6 +934,9 @@ li span {
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   nav {
     z-index: 100;
+  }
+  .header-section {
+    height: 700px;
   }
   .theme-section {
     height: 850px;
@@ -948,7 +984,7 @@ li span {
         rgba(0, 0, 0, 0.15)
       ),
       url('phone-header330.svg');
-    height: 100vh;
+    height: 700px;
   }
   .header-main {
     top: 55%;
@@ -1060,6 +1096,9 @@ li span {
 @media screen and (device-width: 320px) and (device-height: 568px) {
   nav {
     z-index: 100;
+  }
+  .header-section {
+    height: 700px;
   }
   .theme-section {
     height: 160vh;

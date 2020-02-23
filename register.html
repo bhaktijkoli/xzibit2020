@@ -33,6 +33,7 @@
                     type="text"
                     name="entry.1582190385"
                     placeholder="  Enter leader Name"
+                    required
                   />
                 </div>
                 <div class="col-sm-12 col-md-6">
@@ -40,13 +41,15 @@
                     type="email"
                     name="entry.20555551"
                     placeholder="  Enter Email"
+                    required
                   />
                 </div>
                 <div class="col-sm-12 col-md-12">
                   <input
-                    type="text"
+                    type="number"
                     name="entry.269110403"
                     placeholder="  Enter Mobile Number"
+                    required
                   />
                 </div>
               </div>
@@ -59,6 +62,7 @@
                     type="text"
                     name="entry.1121523007"
                     placeholder="  Enter Participant Name"
+                    required
                   />
                 </div>
                 <div class="col-sm-12">
@@ -66,6 +70,7 @@
                     type="email"
                     name="entry.1191125097"
                     placeholder="  Enter Email"
+                    required
                   />
                 </div>
               </div>
@@ -78,6 +83,7 @@
                     type="text"
                     name="entry.1257126050"
                     placeholder="  Enter Participant Name"
+                    required
                   />
                 </div>
                 <div class="col-sm-12">
@@ -85,6 +91,7 @@
                     type="email"
                     name="entry.1947491647"
                     placeholder="  Enter Email"
+                    required
                   />
                 </div>
               </div>
@@ -97,6 +104,7 @@
                     type="text"
                     name="entry.431990831"
                     placeholder="  Enter Participant Name"
+                    required
                   />
                 </div>
                 <div class="col-sm-12">
@@ -104,6 +112,7 @@
                     type="email"
                     name="entry.1095055821"
                     placeholder="  Enter Email"
+                    required
                   />
                 </div>
               </div>
@@ -116,6 +125,7 @@
                     type="text"
                     name="entry.299214516"
                     placeholder="  Enter Institute Name"
+                    required
                   />
                 </div>
               </div>
@@ -128,6 +138,7 @@
                     type="text"
                     name="entry.185442908"
                     placeholder="  Enter Project Title"
+                    required
                   />
                 </div>
               </div>
@@ -213,24 +224,46 @@
                   />
                 </div>
               </div>
-              <div class="form-group row">
+              <div class="form-group row justify-content-center">
                 <label for="Membership-2" class="col-sm-12 label"
                   >Payment Methods
                 </label>
+
+                <div class="col-sm-12 col-md-8 text-center">
+                  <div class="payment-div">
+                    <p class="payment-para">
+                      INR 350/- (For Non IETE/CSI Members)
+                    </p>
+                    <p class="payment-para">
+                      INR 350/- (For Non IETE/CSI Members)
+                    </p>
+                  </div>
+                </div>
+
                 <div class="row">
                   <div class="col-sm-12 col-md-6 text-center">
+                    <p class="payment-para payment-para-head">
+                      1)Using QR Code(Paytm, PhonePe)
+                    </p>
+                    <p class="payment-para">
+                      Scan the below QR code
+                    </p>
+                    <p class="payment-para">
+                      Verify the name ”Prathamesh Jadhav”
+                    </p>
                     <img src="qr.jpeg" alt="" width="80%" />
                   </div>
-                  <div class="col-sm-12 col-md-5 mt-2">
-                    <p class="payment-para">
-                      Scan this QR code to make the payment.
+                  <div class="col-sm-12 col-md-6  text-center">
+                    <p class="payment-para payment-para-head">
+                      2)Using Google Pay
                     </p>
                     <p class="payment-para">
-                      INR 350/- (For Non IETE/CSI Members)
+                      Enter the number: 9619426935
                     </p>
                     <p class="payment-para">
-                      INR 350/- (For Non IETE/CSI Members)
+                      Verify the name ”Prathamesh Jadhav”
                     </p>
+                    <img src="gpay.png" alt="" width="80%" />
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -238,12 +271,15 @@
                     type="text"
                     name="entry.559684878"
                     placeholder="   Enter Payment-Transaction ID"
+                    required
                   />
                 </div>
               </div>
-              <button type="submit" class="submit-btn">
-                Submit
-              </button>
+              <div class="text-center">
+                <button type="submit" class="submit-btn">
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>
