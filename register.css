@@ -110,6 +110,15 @@ input[type='radio'] {
 .radio input[type='radio'] + .radio-label:empty:before {
   margin-right: 0;
 }
+input[type='checkbox'] {
+  width: 19px;
+  height: 19px;
+  transform: translateY(5px);
+}
+input[type='checkbox']:checked {
+  background-color: #6600cc;
+  border-color: red;
+}
 .payment-para {
   font-weight: 900;
 }
