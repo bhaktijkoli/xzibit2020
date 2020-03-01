@@ -86,7 +86,7 @@ input[type='radio'] {
   width: 1.4em;
   height: 1.4em;
   position: relative;
-  top: -0.2em;
+  /*top: -0.2em;*/
   margin-right: 1em;
   vertical-align: top;
   cursor: pointer;
@@ -163,4 +163,11 @@ input[type='checkbox']:checked {
   .payment-div {
     border-radius: none;
   }
+}
+
+label.radio-label {
+  font-size: 14px;
+}
+.link:hover{
+  text-decoration: none;
 }

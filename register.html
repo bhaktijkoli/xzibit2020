@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="register.css" />
   </head>
   <body>
+    <!-- <div>
+      <a href="index.html"><img src="home.png" style="height: 60px;margin:10px 0 10px 30px;"/></a>
+    </div> -->
     <div class="row justify-content-center ">
       <div class="col-sm-12 col-md-10 form-section ">
         <div class="row">
@@ -23,7 +26,7 @@
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeyMys1WveMVZFnI5GSr1JDlK77tWrEUSwjfrR_zIJA_mFrpw/formResponse"
               method="post"
             >
-              <h1 class="header-main-text">Xzibit Form</h1>
+              <h1 class="header-main-text"><a class="link" href="index.html">Xzibit</a> Form</h1>
               <div class="form-group row">
                 <label for="leader-name" class="col-sm-10 label"
                   >Participant 1 (Team Leader)
@@ -154,35 +157,45 @@
                 <label for="branch" class="col-sm-10  label"
                   >Project Category
                 </label>
-                <div class="col-sm-12 col-md-6 radio-row">
+                <div class="col-sm-12 radio-row">
                   <div class="radio">
                     <input
                       id="radio-1"
                       name="entry.682702766"
-                      value="Computer Science"
+                      value="EXTC/ ETRX/ BIOMEDICAL/ ELECTRICAL & ELECTRONICS"
                       type="radio"
                     />
                     <label for="radio-1" class="radio-label "
-                      >Computer Science</label
+                      >EXTC/ ETRX/ BIOMEDICAL/ ELECTRICAL & ELECTRONICS</label
                     >
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12">
                   <div class="radio">
                     <input
                       id="radio-2"
                       name="entry.682702766"
-                      value="Electronics"
+                      value="CS/IT/ELECTRONICS & CS"
                       type="radio"
                     />
-                    <label for="radio-2" class="radio-label">Electronics</label>
+                    <label for="radio-2" class="radio-label">CS/IT/ELECTRONICS & CS</label>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="radio">
+                    <input
+                      id="radio-3"
+                      name="entry.682702766"
+                      value="MECHANICAL / MECHATRONICS /CIVIL / ARCHITECHTURE"
+                      type="radio"
+                    />
+                    <label for="radio-3" class="radio-label">MECHANICAL / MECHATRONICS /CIVIL / ARCHITECHTURE</label>
                   </div>
                 </div>
               </div>
               <div class="form-group row">
                 <label for="member-of-csi" class="col-sm-10  label"
-                  >Whether any two members of the group are a part of IETE or
-                  CSI
+                  >Whether any two members of the group are a part of IETE/CSI
                 </label>
                 <div class="col-sm-12 radio-row">
                   <div class="radio" id="csi-member-yes">
@@ -242,6 +255,9 @@
                 <div class="col-sm-12 col-md-8 text-center">
                   <div class="payment-div">
                     <p class="payment-para">
+                      Per team:
+                    </p>
+                    <p class="payment-para">
                       INR 250/- (Min. 2 IETE/CSI Members in group)
                     </p>
                     <p class="payment-para">
@@ -287,20 +303,20 @@
               </div>
               <div>
                 <input id="term-check" type="checkbox" required/>
-                <span>By registering you agree to our <a href="#" data-toggle="modal" data-target="#myModal">terms and conditions.</a></span>
+                <span>By registering you agree to our <a href="#" data-toggle="modal" data-target="#myModal">Terms and conditions.</a></span>
                 <div class="modal" id="myModal">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title">Term & Condition</h5>
+                        <h5 class="modal-title">Terms & conditions</h5>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                       </div>
                       <div class="modal-body">
-                        *For registered team ,it is mandatory to attend XZIBIT.<br>
-                        *Participation Certificate will only be provided to those who attend XZIBIT.<br>
+                        *For registered team, it is mandatory to attend XZIBIT.<br>
+                        *Participation certificate will only be provided to those who attend XZIBIT.<br>
                         *Refund will not be provided to the teams who remain absent on the day of XZIBIT.<br>
-                        *Registration fees is Rs.350.<br/>
-                        *If two or more participants of a team are CSI/IETE members then the registration fees is Rs.250.
+                        *Registration fees is INR 350/-<br/>
+                        *If two or more participants of a team are CSI/IETE members then the registration fees is INR 250/-
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
